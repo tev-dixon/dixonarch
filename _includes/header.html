@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" class="logo">
+      <img src="{{ '/uploads/logos/block.jpg' | relative_url }}" alt="Dixon Architecture">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav">
+      <ul>
+        {% assign nav_items = "Home,/|About,/about/|Portfolio,/portfolio/|Contact,/contact/" | split: "|" %}
+        {% for item in nav_items %}
+          {% assign parts = item | split: "," %}
+          {% assign label = parts[0] %}
+          {% assign url = parts[1] %}
+          <li>
+            <a href="{{ url | relative_url }}"{% if page.url == url %} class="active"{% endif %}>{{ label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

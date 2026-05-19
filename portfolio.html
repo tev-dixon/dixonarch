@@ -1,0 +1,55 @@
+---
+layout: default
+title: Portfolio
+extra_css: /assets/portfolio.css
+extra_js: /assets/portfolio.js
+---
+
+{% assign portfolio = site.data.portfolio %}
+
+<div class="page-padded">
+
+  {% for section in portfolio %}
+    <section class="portfolio-section">
+      <h2 class="portfolio-section-title">{{ section.section_title }}</h2>
+
+      <div class="collage" data-row-height="280" data-gap="10">
+        {% for project in section.projects %}
+          {% assign cover = project.images.first %}
+          <a class="collage-item"
+             href="#"
+             data-project-index="{{ forloop.index0 }}"
+             data-section-index="{{ forloop.parentloop.index0 }}">
+            <img src="{{ cover.image_url | relative_url }}" alt="{{ project.title }}">
+            <div class="collage-overlay">
+              <span>{{ project.title }}</span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+
+</div>
+
+{% include lightbox.html %}
+
+<!-- Project image data for the lightbox (JSON) -->
+<script id="portfolio-data" type="application/json">
+[
+  {% for section in portfolio %}
+    [
+      {% for project in section.projects %}
+        {
+          "title": {{ project.title | jsonify }},
+          "images": [
+            {% for img in project.images %}
+              {{ img.image_url | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+</script>

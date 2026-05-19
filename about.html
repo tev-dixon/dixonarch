@@ -1,0 +1,72 @@
+---
+layout: default
+title: About
+extra_css: /assets/about.css
+---
+
+{% assign team = site.data.team %}
+
+<div class="page-padded">
+
+    <!-- About Us — text left, single image right -->
+    <section class="about-split">
+        <div class="about-copy">
+            <h1 class="section-heading">About Us</h1>
+            <p class="section-lead">
+                Dixon Architecture is an architectural design firm based in Ada, Michigan,
+                with a wide range of project experience.
+            </p>
+            <p class="section-body">
+                Our work includes urban redevelopment, mixed-use commercial spaces, retail and
+                office buildings, family dentistry offices, branch banks, and pre-engineered
+                manufacturing and warehouse facilities. Each project is approached with the same
+                commitment to context, craft, and the people who will use the space.
+            </p>
+        </div>
+        <figure class="about-image">
+            <img src="/uploads/portfolio/ada_first_e2.jpg">
+        </figure>
+    </section>
+
+    <!-- Values pane — image on left, 3 values on right -->
+    <section class="pane values-pane">
+        <figure class="values-image">
+            <img src="/uploads/portfolio/ada_first_i0.jpg" alt="">
+        </figure>
+        <div class="values-content">
+            <h2 class="pane-heading">Our Values</h2>
+
+            <p>
+                At our firm, we focus on building strong relationships with our clients, taking the time to fully understand the unique challenges and opportunities each project presents. We believe that our commitment to collaboration—connecting the client, designer, and builder—creates a solid foundation for success.
+            </p>
+            <p>
+                We approach each project with the goal of capturing the essence of the surrounding community, allowing that inspiration to guide our design process. This results in architecture that is both beautiful and responsible. By honoring the context and history of a place, we can deliver long-term value for our clients and their communities through thoughtful design.
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team-section">
+        <h2 class="section-heading">The Team</h2>
+        <div class="team-grid">
+            {% for member in team %}
+            
+            <div class="team-member">
+                <a href="{{ '/contact/' | relative_url }}" class="team-photo">
+                    <img src="{{ member.image_url | relative_url }}" alt="{{ member.name }}">
+                </a>
+                <h3 class="team-name">{{ member.name }}</h3>
+                <p class="team-role">{{ member.role }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="ctas">
+        <a href="{{ '/portfolio/' | relative_url }}" class="cta cta-secondary">See Our Work →</a>
+        <a href="{{ '/contact/' | relative_url }}" class="cta cta-primary">Start a Project →</a>
+    </section>
+
+</div>

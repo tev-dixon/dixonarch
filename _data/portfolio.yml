@@ -1,0 +1,171 @@
+# Portfolio data — image base path: /uploads/portfolio/
+# Naming convention observed: _e = exterior, _i = interior, _c = construction
+# Cover image is always the first listed.
+
+- section_title: Featured Work — Ada Village Redesign
+  projects:
+    - title: Ada First
+      images:
+        - image_url: /uploads/portfolio/ada_first_e0.jpg
+        - image_url: /uploads/portfolio/ada_first_e1.jpg
+        - image_url: /uploads/portfolio/ada_first_e2.jpg
+        - image_url: /uploads/portfolio/ada_first_e4.jpg
+        - image_url: /uploads/portfolio/ada_first_i0.jpg
+        - image_url: /uploads/portfolio/ada_first_i3.jpg
+        - image_url: /uploads/portfolio/ada_first_i4.jpg
+
+    - title: Ada Hotel
+      images:
+        - image_url: /uploads/portfolio/ada_hotel_e0.jpg
+        - image_url: /uploads/portfolio/ada_hotel_e1.jpg
+        - image_url: /uploads/portfolio/ada_hotel_e2.jpg
+        - image_url: /uploads/portfolio/ada_hotel_e3.jpeg
+        - image_url: /uploads/portfolio/ada_hotel_i0.jpg
+
+    - title: Ada Village General Store
+      images:
+        - image_url: /uploads/portfolio/ada_market_e0.jpg
+        - image_url: /uploads/portfolio/ada_market_e1.jpeg
+        - image_url: /uploads/portfolio/ada_market_i0.jpg
+        - image_url: /uploads/portfolio/ada_market_i1.jpg
+        - image_url: /uploads/portfolio/ada_market_i2.jpg
+
+    - title: Myrth — Ada Village Redevelopment
+      images:
+        - image_url: /uploads/portfolio/myrth_e0.jpg
+        - image_url: /uploads/portfolio/myrth_e1.jpg
+        - image_url: /uploads/portfolio/myrth_e2.png
+        - image_url: /uploads/portfolio/myrth_i0.png
+        - image_url: /uploads/portfolio/myrth_i1.png
+
+    - title: Beyond by Bill & Paul's
+      images:
+        - image_url: /uploads/portfolio/beyond_e0.jpeg
+        - image_url: /uploads/portfolio/beyond_e2.jpeg
+        - image_url: /uploads/portfolio/beyond_e3.jpeg
+        - image_url: /uploads/portfolio/beyond_i3.png
+        - image_url: /uploads/portfolio/beyond_i4.png
+
+- section_title: Office / Retail
+  projects:
+    - title: Ethos Day Spa
+      images:
+        - image_url: /uploads/portfolio/ethos_e0.jpeg
+        - image_url: /uploads/portfolio/ethos_e1.jpeg
+
+    - title: Knapp Orthodontics
+      images:
+        - image_url: /uploads/portfolio/knapp_ortho_e0.jpg
+        - image_url: /uploads/portfolio/knapp_ortho_i0.jpg
+        - image_url: /uploads/portfolio/knapp_ortho_i1.jpg
+        - image_url: /uploads/portfolio/knapp_ortho_i2.jpg
+        - image_url: /uploads/portfolio/knapp_ortho_i3.jpg
+
+    - title: Foxtail Coffee — Wealthy Street
+      images:
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_e0.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_e1.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_e2.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_i0.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_i1.png
+
+    - title: Foxtail Coffee — Grandville
+      images:
+        - image_url: /uploads/portfolio/foxtail_grandville_e0.png
+        - image_url: /uploads/portfolio/foxtail_grandville_e1.png
+        - image_url: /uploads/portfolio/foxtail_grandville_i0.png
+        - image_url: /uploads/portfolio/foxtail_grandville_i1.png
+
+    - title: The James Salon & Spa
+      images:
+        - image_url: /uploads/portfolio/james_e0.jpg
+        - image_url: /uploads/portfolio/james_e1.jpeg
+        - image_url: /uploads/portfolio/james_i0.png
+        - image_url: /uploads/portfolio/james_i1.png
+
+    - title: Norman Family Dentistry
+      images:
+        - image_url: /uploads/portfolio/norman_e0.jpg
+        - image_url: /uploads/portfolio/norman_e1.jpg
+        - image_url: /uploads/portfolio/norman_i0.jpg
+        - image_url: /uploads/portfolio/norman_i1.jpg
+
+    - title: Smuggler's at North Shore
+      images:
+        - image_url: /uploads/portfolio/smugglers_e0.png
+        - image_url: /uploads/portfolio/smugglers_e1.png
+        - image_url: /uploads/portfolio/smugglers_e2.png
+        - image_url: /uploads/portfolio/smugglers_i0.png
+
+    - title: Zeytin Turkish Restaurant
+      images:
+        - image_url: /uploads/portfolio/zeytin_e0.jpg
+        - image_url: /uploads/portfolio/zeytin_e2.png
+        - image_url: /uploads/portfolio/zeytin_e4.jpg
+        - image_url: /uploads/portfolio/zeytin-i0.png
+
+- section_title: Industrial
+  projects:
+    - title: Gourmet International
+      images:
+        - image_url: /uploads/portfolio/gourmet_e0.jpg
+        - image_url: /uploads/portfolio/gourmet_e1.jpg
+        - image_url: /uploads/portfolio/gourmet_i0.jpg
+        - image_url: /uploads/portfolio/gourmet_i1.jpg
+
+    - title: FOAM-iT
+      images:
+        - image_url: /uploads/portfolio/foam_it_e0.jpg
+        - image_url: /uploads/portfolio/foam_it_i0.jpg
+        - image_url: /uploads/portfolio/foam_it_i1.jpg
+
+    - title: Mill Steel
+      images:
+        - image_url: /uploads/portfolio/mill_steel_i0.jpg
+        - image_url: /uploads/portfolio/mill_steel_i1.jpg
+        - image_url: /uploads/portfolio/mill_steel_i2.jpeg
+
+    - title: Netech
+      images:
+        - image_url: /uploads/portfolio/netech_e1.jpg
+        - image_url: /uploads/portfolio/netech_e2.jpg
+        - image_url: /uploads/portfolio/netech_i0.jpg
+
+    - title: Lasers Resource
+      images:
+        - image_url: /uploads/portfolio/lasers_resource_e2.jpg
+        - image_url: /uploads/portfolio/lasers_resource_e3.jpg
+        - image_url: /uploads/portfolio/lasers_resource_i0.jpg
+
+    - title: Fillmore Equipment — Holland
+      images:
+        - image_url: /uploads/portfolio/greenmark_holland_e0.jpg
+        - image_url: /uploads/portfolio/greenmark_holland_e1.jpg
+        - image_url: /uploads/portfolio/greenmark_holland_i0.jpg
+
+- section_title: Community / Educational
+  projects:
+    - title: Grace Adventures — Lakeview Common
+      images:
+        - image_url: /uploads/portfolio/grace-adventures-1.png
+        - image_url: /uploads/portfolio/grace-adventures-2.png
+        - image_url: /uploads/portfolio/grace-adventures-3.png
+
+    - title: Roselle Park
+      images:
+        - image_url: /uploads/portfolio/roselle_e0.jpg
+        - image_url: /uploads/portfolio/roselle_e1.jpg
+        - image_url: /uploads/portfolio/roselle_e2.jpg
+
+    - title: Canterbury Creek Preschool
+      images:
+        - image_url: /uploads/portfolio/canterbury_creek_e0.jpg
+        - image_url: /uploads/portfolio/canterbury_creek_e2.jpg
+        - image_url: /uploads/portfolio/canterbury_creek_e4.jpg
+
+    - title: Schoolhouse
+      images:
+        - image_url: /uploads/portfolio/schoolhouse_e0.jpg
+        - image_url: /uploads/portfolio/schoolhouse_e1.jpg
+        - image_url: /uploads/portfolio/schoolhouse_e2.jpg
+        - image_url: /uploads/portfolio/schoolhouse_i0.jpg

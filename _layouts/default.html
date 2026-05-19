@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+    <title>{% if page.title %}{{ page.title }} {% endif %}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    {% if page.extra_css %}
+    <link rel="stylesheet" href="{{ page.extra_css | relative_url }}">
+    {% endif %}
+</head>
+
+<body>
+
+    {% include header.html %}
+    {% capture page_content %}{{ content }}{% endcapture %}
+    {% assign banner_html = "" %}
+    {% if page_content contains "<!-- banner:start -->" %}
+    {% assign banner_split = page_content | split: "<!-- banner:start -->" %}
+    {% assign banner_rest = banner_split[1] | split: "<!-- banner:end -->" %}
+    {% assign banner_html = banner_rest[0] %}
+    {% assign page_content = banner_split[0] | append: banner_rest[1] %}
+    {% endif %}
+
+    {% if banner_html != "" %}
+    <section class="page-banner">
+        <div class="page-banner-inner">
+            {{ banner_html }}
+        </div>
+    </section>
+    {% endif %}
+
+    <main class="container">
+        {{ page_content }}
+    </main>
+
+    {% include footer.html %}
+
+    <script src="{{ '/assets/nav.js' | relative_url }}"></script>
+    {% if page.extra_js %}
+    <script src="{{ page.extra_js | relative_url }}"></script>
+    {% endif %}
+
+</body>
+
+</html>

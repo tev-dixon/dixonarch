@@ -1,0 +1,19 @@
+- name: Ken Dixon
+  role: Principal Architect
+  image_url: /uploads/team/ken.jpg
+
+- name: Chip Clark
+  role: Architect
+  image_url: /uploads/team/chip.png
+
+- name: Megan Grauf
+  role: Architect
+  image_url: /uploads/team/megan.jpg
+
+- name: Tauni Camilli
+  role: Design Manager
+  image_url: /uploads/team/tauni.jpeg
+
+- name: Catie Wiersma
+  role: Design Manager
+  image_url: /uploads/team/catie.jpg

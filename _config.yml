@@ -1,0 +1,12 @@
+title: Dixon Architecture
+description: Ada, Michigan — Est. 2004
+url: "https://dixonarch.com"
+plugins: []
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Tell Jekyll not to mangle our file paths
+permalink: /:basename/

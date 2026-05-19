@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="footer-main container">
+    <div class="footer-brand">
+      <img src="{{ '/uploads/logos/emblem_mask_white.png' | relative_url }}" alt="Dixon Architecture" class="footer-emblem">
+    </div>
+
+    <div class="footer-col">
+      <h4>Visit</h4>
+      <p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>523 Ada Drive SE<br>Suite 200<br>Ada, MI 49301</span>
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+16166824570">(616) 682-4570</a>
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/dixon.architecture" aria-label="Facebook" target="_blank" rel="noopener">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <p>&copy; {{ 'now' | date: '%Y' }} Dixon Environmental Architecture · All Rights Reserved</p>
+    <nav class="footer-links">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+  </div>
+</footer>

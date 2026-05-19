@@ -1,0 +1,62 @@
+---
+layout: default
+title: Home
+extra_css: /assets/home.css
+extra_js: /assets/gallery.js
+---
+
+{% assign hero = site.data.hero %}
+
+<div class="page-padded">
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <div class="gallery-frame">
+      {% for item in hero %}
+        <div class="slide {% if forloop.first %}active{% endif %}">
+          <img src="{{ item.image_url | relative_url }}" alt="{{ item.title }}">
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="gallery-nav">
+      <button class="arrow" data-dir="-1" aria-label="Previous">‹</button>
+
+      <div class="indicators">
+        {% for item in hero %}
+          <button class="dot {% if forloop.first %}active{% endif %}"
+                  data-index="{{ forloop.index0 }}"
+                  aria-label="Slide {{ forloop.index }}">
+          </button>
+        {% endfor %}
+      </div>
+
+      <button class="arrow" data-dir="1" aria-label="Next">›</button>
+    </div>
+  </section>
+
+  <!-- About + portfolio preview pane -->
+  <section class="pane">
+    <div class="intro">
+      <img src="{{ '/uploads/logos/emblem_transparent_background.png' | relative_url }}"
+          alt="Dixon Architecture emblem"
+          class="intro-logo">
+
+      <div class="intro-text">
+        <p>
+          Dixon Architecture is a design firm based in Ada Village, with a proven history of working with clients in Ada,
+          Grand Rapids, and across West Michigan.
+          Our extensive portfolio includes a variety of projects, from business offices and retail spaces to manufacturing
+          facilities.
+          We also have expertise in specialized designs, such as historic village layouts, dental and orthodontic offices,
+          healthcare clinics, a farm preschool, and many other unique ventures.
+        </p>
+
+        <div class="intro-buttons">
+          <a href="{{ '/about/' | relative_url }}" class="cta cta-secondary">Learn About Us →</a>
+          <a href="{{ '/contact/' | relative_url }}" class="cta cta-primary">Start a Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

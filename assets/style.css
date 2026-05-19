@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-accent: #75ba39;
+  --color-text: #222;
+  --color-text-muted: #666;
+  --color-text-subtle: #555;
+  --color-bg: #fff;
+  --color-pane: #f4f4f4;
+  --radius: 12px;
+  --edge: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+/* Container — controls horizontal gutters */
+.container {
+  padding-left: var(--edge);
+  padding-right: var(--edge);
+}
+
+/* Header — nav keeps its own typographic treatment (uppercase, small, tight) */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: var(--color-bg);
+  z-index: 100;
+  border-bottom: 1px solid #eee;
+}
+
+.site-header .container {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.logo img {
+  height: 100px;
+  display: block;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 36px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Page banner — opt in via <!-- banner:start --> ... <!-- banner:end --> */
+.page-banner {
+  background: var(--color-accent);
+  color: #fff;
+  padding: 48px 24%;
+  text-align: center;
+}
+
+.page-banner-inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-banner h1 {
+  margin: 0 0 16px;
+  color: #fff;
+}
+
+.page-banner p {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.page-banner a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.page-banner a:hover {
+  opacity: 0.85;
+}
+
+/* Pane — shared rounded container */
+.pane {
+  margin-top: 48px;
+  background: var(--color-pane);
+  border-radius: var(--radius);
+  padding: 32px;
+}
+
+/* CTAs */
+.ctas {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 48px 0;
+}
+
+.cta {
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.15s;
+}
+
+.cta-primary {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.cta-primary:hover {
+  filter: brightness(0.92);
+}
+
+.cta-secondary {
+  border: 2px solid var(--color-text);
+  color: var(--color-text);
+}
+
+.cta-secondary:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Footer */
+.site-footer {
+  background: #1a1a1a;
+  color: #b8b8b8;
+  margin-top: 64px;
+  padding-top: 56px;
+  font-size: 1rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: 40px;
+}
+
+.footer-brand {
+  max-width: 320px;
+}
+
+.footer-emblem {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.site-footer h4 {
+  margin: 0 0 16px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.footer-col p {
+  margin: 0 0 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+.footer-col i {
+  color: var(--color-accent);
+  margin-top: 4px;
+  width: 14px;
+  flex-shrink: 0;
+}
+
+.footer-col a {
+  color: #b8b8b8;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-col a:hover {
+  color: var(--color-accent);
+}
+
+.footer-social {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  color: #b8b8b8;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.footer-social a:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #2a2a2a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: normal;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #777;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+
+/* Shared page padding */
+.page-padded {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    width: 100%;
+  }
+
+  .nav.open {
+    display: block;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .site-header .container {
+    flex-wrap: wrap;
+    padding-right: var(--edge);
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .page-padded {
+    padding-left: var(--edge);
+    padding-right: var(--edge);
+  }
+}
+
+@media (max-width: 600px) {
+  .page-banner {
+    padding: 40px 24px;
+  }
+
+  .page-banner h1 {
+    font-size: 2rem;
+  }
+}
