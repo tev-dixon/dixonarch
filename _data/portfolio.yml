@@ -1,171 +1,300 @@
 # Portfolio data — image base path: /uploads/portfolio/
-# Naming convention observed: _e = exterior, _i = interior, _c = construction
 # Cover image is always the first listed.
 
-- section_title: Featured Work — Ada Village Redesign
+- section_title: Featured Work — Ada Village
   projects:
     - title: Ada First
       images:
-        - image_url: /uploads/portfolio/ada_first_e0.jpg
-        - image_url: /uploads/portfolio/ada_first_e1.jpg
-        - image_url: /uploads/portfolio/ada_first_e2.jpg
-        - image_url: /uploads/portfolio/ada_first_e4.jpg
-        - image_url: /uploads/portfolio/ada_first_i0.jpg
-        - image_url: /uploads/portfolio/ada_first_i3.jpg
-        - image_url: /uploads/portfolio/ada_first_i4.jpg
+        - image_url: /uploads/portfolio/ada_first_drone_front.jpg
+        - image_url: /uploads/portfolio/ada_first_corner_clock.jpg
+        - image_url: /uploads/portfolio/ada_first_corner_clock_cropped.jpg
+        - image_url: /uploads/portfolio/ada_first_intersection.jpg
+        - image_url: /uploads/portfolio/ada_first_ada_dr.jpg
+        - image_url: /uploads/portfolio/ada_first_headly_st.jpg
+        - image_url: /uploads/portfolio/ada_first_south.jpg
+        - image_url: /uploads/portfolio/ada_first_drone_far.jpg
+        - image_url: /uploads/portfolio/ada_first_interior_front_entry.jpg
+        - image_url: /uploads/portfolio/ada_first_interior_dmc.jpg
+        - image_url: /uploads/portfolio/ada_first_interior_dmc2.jpg
+        - image_url: /uploads/portfolio/ada_first_interior_conference_room.jpg
+        - image_url: /uploads/portfolio/ada_first_construction_x.jpg
+
+    - title: Ada Market
+      images:
+        - image_url: /uploads/portfolio/ada_market_front_far.jpg
+        - image_url: /uploads/portfolio/ada_market_front_left_close.jpg
+        - image_url: /uploads/portfolio/ada_market_interior_east.jpg
+        - image_url: /uploads/portfolio/ada_market_interior_west.jpg
+        - image_url: /uploads/portfolio/ada_market_interior_coffee.jpg
+        - image_url: /uploads/portfolio/ada_market_interior_deli.jpg
+        - image_url: /uploads/portfolio/ada_market_interior_meat_dept.jpg
+        - image_url: /uploads/portfolio/ada_market_interior_produce.jpg
+        - image_url: /uploads/portfolio/ada_market_interior_produce2.jpg
+        - image_url: /uploads/portfolio/ada_market_construction.jpg
+        - image_url: /uploads/portfolio/ada_market_construction_east.jpg
+        - image_url: /uploads/portfolio/ada_market_front_old.jpg
 
     - title: Ada Hotel
       images:
-        - image_url: /uploads/portfolio/ada_hotel_e0.jpg
-        - image_url: /uploads/portfolio/ada_hotel_e1.jpg
-        - image_url: /uploads/portfolio/ada_hotel_e2.jpg
-        - image_url: /uploads/portfolio/ada_hotel_e3.jpeg
-        - image_url: /uploads/portfolio/ada_hotel_i0.jpg
+        - image_url: /uploads/portfolio/ada_hotel_front.jpg
+        - image_url: /uploads/portfolio/ada_hotel_front_far.jpeg
+        - image_url: /uploads/portfolio/ada_hotel_drone.jpg
+        - image_url: /uploads/portfolio/ada_hotel_front_door_edited.jpg
+        - image_url: /uploads/portfolio/ada_hotel_front_door.jpg
+        - image_url: /uploads/portfolio/ada_hotel_interior_bedroom.jpg
 
-    - title: Ada Village General Store
+    - title: Myrth
       images:
-        - image_url: /uploads/portfolio/ada_market_e0.jpg
-        - image_url: /uploads/portfolio/ada_market_e1.jpeg
-        - image_url: /uploads/portfolio/ada_market_i0.jpg
-        - image_url: /uploads/portfolio/ada_market_i1.jpg
-        - image_url: /uploads/portfolio/ada_market_i2.jpg
-
-    - title: Myrth — Ada Village Redevelopment
-      images:
-        - image_url: /uploads/portfolio/myrth_e0.jpg
-        - image_url: /uploads/portfolio/myrth_e1.jpg
-        - image_url: /uploads/portfolio/myrth_e2.png
-        - image_url: /uploads/portfolio/myrth_i0.png
-        - image_url: /uploads/portfolio/myrth_i1.png
+        - image_url: /uploads/portfolio/myrth_front.jpg
+        - image_url: /uploads/portfolio/myrth_south.jpg
+        - image_url: /uploads/portfolio/myrth_front_far.png
+        - image_url: /uploads/portfolio/myrth_enterance_close.jpg
+        - image_url: /uploads/portfolio/myrth_interior_seating.png
+        - image_url: /uploads/portfolio/myrth_interior_bar.png
+        - image_url: /uploads/portfolio/myrth_interior_bar_seating.png
+        - image_url: /uploads/portfolio/myrth_interior_busy.png
 
     - title: Beyond by Bill & Paul's
       images:
-        - image_url: /uploads/portfolio/beyond_e0.jpeg
-        - image_url: /uploads/portfolio/beyond_e2.jpeg
-        - image_url: /uploads/portfolio/beyond_e3.jpeg
-        - image_url: /uploads/portfolio/beyond_i3.png
-        - image_url: /uploads/portfolio/beyond_i4.png
+        - image_url: /uploads/portfolio/beyond_front.jpeg
+        - image_url: /uploads/portfolio/beyond_front_skew.jpeg
+        - image_url: /uploads/portfolio/beyond_front_north.jpg
+        - image_url: /uploads/portfolio/beyond_front_gable.png
+        - image_url: /uploads/portfolio/beyond_front_garage_doors_open.png
+        - image_url: /uploads/portfolio/beyond_interior.png
+
+    - title: Ada Building B3
+      images:
+        - image_url: /uploads/portfolio/b3_front.jpeg
+        - image_url: /uploads/portfolio/b3_front_skewed.jpg
+        - image_url: /uploads/portfolio/b3_front_far.jpg
+        - image_url: /uploads/portfolio/b3_skewed.jpg
+        - image_url: /uploads/portfolio/b3_back.jpeg
+        - image_url: /uploads/portfolio/b3_james_interior_first_floor.png
+        - image_url: /uploads/portfolio/b3_james_interior_second_floor.png
+
+    - title: Ada Building A7
+      images:
+        - image_url: /uploads/portfolio/a7_ada_dr.jpeg
+        - image_url: /uploads/portfolio/a7_headly_st.jpg
+        - image_url: /uploads/portfolio/a7_tunnel_day.jpg
+        - image_url: /uploads/portfolio/a7_tunnel_day_cropped.jpg
+        - image_url: /uploads/portfolio/a7_tunnel_night.jpg
+
+    - title: Ada Building A2
+      images:
+        - image_url: /uploads/portfolio/a2_front.jpg
+        - image_url: /uploads/portfolio/a2_back.jpg
+        - image_url: /uploads/portfolio/a2_interior_gravel_bottom.jpg
+        - image_url: /uploads/portfolio/a2_interior_gravel_bottom_view.jpg
+        - image_url: /uploads/portfolio/a2_interior_gravel_bottom_view_2.jpg
+
+    - title: Ada Building B5
+      images:
+        - image_url: /uploads/portfolio/b5_front_edited.jpeg
+        - image_url: /uploads/portfolio/b5_west_front.jpeg
+        - image_url: /uploads/portfolio/b5_front_far.jpg
+        - image_url: /uploads/portfolio/b5_east.jpg
+        - image_url: /uploads/portfolio/b5_south.jpg
+        - image_url: /uploads/portfolio/b5_back_left_edited.jpg
+        - image_url: /uploads/portfolio/b5_skewed_heavy.jpg
+
+    - title: Ada Building B6
+      images:
+        - image_url: /uploads/portfolio/b6_front.jpg
+        - image_url: /uploads/portfolio/b6_front_left.jpg
+        - image_url: /uploads/portfolio/b6_front_east.jpg
+        - image_url: /uploads/portfolio/b6_front_west.jpg
+        - image_url: /uploads/portfolio/b6_east.jpg
+        - image_url: /uploads/portfolio/b6_east_close.jpg
+        - image_url: /uploads/portfolio/b6_east_skew.jpg
+        - image_url: /uploads/portfolio/b6_front_west_far.jpg
+        - image_url: /uploads/portfolio/b6_construction_front.jpg
+        - image_url: /uploads/portfolio/b6_construction_front_west.jpg
+        - image_url: /uploads/portfolio/b6_construction_east.jpg
+    
+    - title: Ada Schoolhouse
+      images:
+        - image_url: /uploads/portfolio/schoolhouse_front_old.jpg
+        - image_url: /uploads/portfolio/schoolhouse_front_old_left.jpg
+        - image_url: /uploads/portfolio/schoolhouse_front_old_right.jpg
+        - image_url: /uploads/portfolio/schoolhouse_back.jpg
+        - image_url: /uploads/portfolio/schoolhouse_interior_old.jpg
 
 - section_title: Office / Retail
   projects:
-    - title: Ethos Day Spa
-      images:
-        - image_url: /uploads/portfolio/ethos_e0.jpeg
-        - image_url: /uploads/portfolio/ethos_e1.jpeg
-
-    - title: Knapp Orthodontics
-      images:
-        - image_url: /uploads/portfolio/knapp_ortho_e0.jpg
-        - image_url: /uploads/portfolio/knapp_ortho_i0.jpg
-        - image_url: /uploads/portfolio/knapp_ortho_i1.jpg
-        - image_url: /uploads/portfolio/knapp_ortho_i2.jpg
-        - image_url: /uploads/portfolio/knapp_ortho_i3.jpg
-
     - title: Foxtail Coffee — Wealthy Street
       images:
-        - image_url: /uploads/portfolio/foxtail_wealthy_st_e0.png
-        - image_url: /uploads/portfolio/foxtail_wealthy_st_e1.png
-        - image_url: /uploads/portfolio/foxtail_wealthy_st_e2.png
-        - image_url: /uploads/portfolio/foxtail_wealthy_st_i0.png
-        - image_url: /uploads/portfolio/foxtail_wealthy_st_i1.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_front.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_front_close.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_front_far.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_front_left.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_front_left_2.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_front_left_far.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_enterance.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_left.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_left_far.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_right.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_seating.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_seating_enterance_left.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_seating_enterence.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_bar_left.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_view.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_st_interior_view_left.png
+        - image_url: /uploads/portfolio/foxtail_wealthy_interior_bar_close.png
 
     - title: Foxtail Coffee — Grandville
       images:
-        - image_url: /uploads/portfolio/foxtail_grandville_e0.png
-        - image_url: /uploads/portfolio/foxtail_grandville_e1.png
-        - image_url: /uploads/portfolio/foxtail_grandville_i0.png
-        - image_url: /uploads/portfolio/foxtail_grandville_i1.png
+        - image_url: /uploads/portfolio/foxtail_grandville_front.png
+        - image_url: /uploads/portfolio/foxtail_grandville_front_skewed.png
+        - image_url: /uploads/portfolio/foxtail_grandville_front_left_skewed.png
+        - image_url: /uploads/portfolio/foxtail_grandville_side.png
+        - image_url: /uploads/portfolio/foxtail_grandville_interior.png
+        - image_url: /uploads/portfolio/foxtail_grandville_interior_seating.png
+        - image_url: /uploads/portfolio/foxtail_grandville_interior_bar.png
+        - image_url: /uploads/portfolio/foxtail_grandville_interior_bar_left.png
 
-    - title: The James Salon & Spa
+    - title: Foxtail Coffee — Ada
       images:
-        - image_url: /uploads/portfolio/james_e0.jpg
-        - image_url: /uploads/portfolio/james_e1.jpeg
-        - image_url: /uploads/portfolio/james_i0.png
-        - image_url: /uploads/portfolio/james_i1.png
+        - image_url: /uploads/portfolio/foxtail_ada_headley_st.jpeg
+        - image_url: /uploads/portfolio/foxtail_ada_south_entry.png
+        - image_url: /uploads/portfolio/foxtail_ada_interior.png
+        - image_url: /uploads/portfolio/foxtail_ada_interior_bar.png
+
+    - title: MaxLiving
+      images:
+        - image_url: /uploads/portfolio/maxliving_front.png
+        - image_url: /uploads/portfolio/maxliving_side.png
+        - image_url: /uploads/portfolio/maxliving_side_far.png
+        - image_url: /uploads/portfolio/maxliving_back_far.png
+        - image_url: /uploads/portfolio/maxliving_interior_reception.png
+        - image_url: /uploads/portfolio/maxliving_interior_waiting_room.png
+        - image_url: /uploads/portfolio/maxliving_interior_seating.png
+        - image_url: /uploads/portfolio/maxliving_interior_classroom.png
+        - image_url: /uploads/portfolio/maxliving_interior_break_room.png
+        - image_url: /uploads/portfolio/maxliving_interior_break_room_view.png
+        - image_url: /uploads/portfolio/maxliving_med_room.png
+
+    - title: CBD
+      images:
+        - image_url: /uploads/portfolio/cbd_suite_a.jpg
+        - image_url: /uploads/portfolio/cbd_suite_a_far.jpg
+        - image_url: /uploads/portfolio/cbd_skewed.jpg
+        - image_url: /uploads/portfolio/cbd_interior_work_stations.jpg
+        - image_url: /uploads/portfolio/cbd_interior_meeting_room.jpg
+        - image_url: /uploads/portfolio/cbd_interior_break_room.jpg
+        - image_url: /uploads/portfolio/cbd_interior_break_room_2.jpg
+        - image_url: /uploads/portfolio/cbd_interior_hall.jpg
+        - image_url: /uploads/portfolio/cbd_construction.jpg
+
+    - title: Knapp Orthodontics
+      images:
+        - image_url: /uploads/portfolio/knapp_ortho_front.jpg
+        - image_url: /uploads/portfolio/knapp_ortho_interior_reception.jpg
+        - image_url: /uploads/portfolio/knapp_ortho_interior_reception_far.jpg
+        - image_url: /uploads/portfolio/knapp_ortho_interior_dental_chairs.jpg
 
     - title: Norman Family Dentistry
       images:
-        - image_url: /uploads/portfolio/norman_e0.jpg
-        - image_url: /uploads/portfolio/norman_e1.jpg
-        - image_url: /uploads/portfolio/norman_i0.jpg
-        - image_url: /uploads/portfolio/norman_i1.jpg
+        - image_url: /uploads/portfolio/norman_front.jpg
+        - image_url: /uploads/portfolio/norman_front_right.jpg
+        - image_url: /uploads/portfolio/norman_interior_waiting_room.jpg
+        - image_url: /uploads/portfolio/norman_interior_dental_chair.jpg
+        - image_url: /uploads/portfolio/norman_interior_dental_chair_2.jpg
+
+    - title: West Michigan Pediatric Dentistry
+      images:
+        - image_url: /uploads/portfolio/wmpd_front.jpeg
+        - image_url: /uploads/portfolio/wmpd_interior_dental_chairs.jpeg
+        - image_url: /uploads/portfolio/wmpd_interior_hall.jpeg
+        - image_url: /uploads/portfolio/wmpd_break_room.jpeg
+
+    - title: Swan Orthodontics
+      images:
+        - image_url: /uploads/portfolio/swan_ortho_front_far.jpg
+        - image_url: /uploads/portfolio/swan_ortho_interior_waiting_room.jpg
+        - image_url: /uploads/portfolio/swan_ortho_interior_waiting_room_2.jpg
 
     - title: Smuggler's at North Shore
       images:
-        - image_url: /uploads/portfolio/smugglers_e0.png
-        - image_url: /uploads/portfolio/smugglers_e1.png
-        - image_url: /uploads/portfolio/smugglers_e2.png
-        - image_url: /uploads/portfolio/smugglers_i0.png
+        - image_url: /uploads/portfolio/smugglers_front.png
+        - image_url: /uploads/portfolio/smugglers_front_close_skewed.png
+        - image_url: /uploads/portfolio/smugglers_exterior_seating.png
+        - image_url: /uploads/portfolio/smugglers_exterior_bar.png
+        - image_url: /uploads/portfolio/smugglers_interior_front.png
+        - image_url: /uploads/portfolio/smugglers_interior_bar.png
 
     - title: Zeytin Turkish Restaurant
       images:
-        - image_url: /uploads/portfolio/zeytin_e0.jpg
-        - image_url: /uploads/portfolio/zeytin_e2.png
-        - image_url: /uploads/portfolio/zeytin_e4.jpg
-        - image_url: /uploads/portfolio/zeytin-i0.png
+        - image_url: /uploads/portfolio/zeytin_front_far.jpg
+        - image_url: /uploads/portfolio/zeytin_front_skewed.jpg
+        - image_url: /uploads/portfolio/zeytin_front_balcony_close.png
+        - image_url: /uploads/portfolio/zeytin_interior_seating.png
+        - image_url: /uploads/portfolio/zeytin_interior_bar.png
 
 - section_title: Industrial
   projects:
     - title: Gourmet International
       images:
-        - image_url: /uploads/portfolio/gourmet_e0.jpg
-        - image_url: /uploads/portfolio/gourmet_e1.jpg
-        - image_url: /uploads/portfolio/gourmet_i0.jpg
-        - image_url: /uploads/portfolio/gourmet_i1.jpg
-
-    - title: FOAM-iT
-      images:
-        - image_url: /uploads/portfolio/foam_it_e0.jpg
-        - image_url: /uploads/portfolio/foam_it_i0.jpg
-        - image_url: /uploads/portfolio/foam_it_i1.jpg
-
-    - title: Mill Steel
-      images:
-        - image_url: /uploads/portfolio/mill_steel_i0.jpg
-        - image_url: /uploads/portfolio/mill_steel_i1.jpg
-        - image_url: /uploads/portfolio/mill_steel_i2.jpeg
+        - image_url: /uploads/portfolio/gourmet_front.jpg
+        - image_url: /uploads/portfolio/gourmet_front_left.jpg
+        - image_url: /uploads/portfolio/gourmet_interior_reception.jpg
+        - image_url: /uploads/portfolio/gourmet_interior_conference_room.jpg
+        - image_url: /uploads/portfolio/gourmet_interior_warehouse.jpg
+        - image_url: /uploads/portfolio/gourmet_interior_work_stations.jpg
 
     - title: Netech
       images:
-        - image_url: /uploads/portfolio/netech_e1.jpg
-        - image_url: /uploads/portfolio/netech_e2.jpg
-        - image_url: /uploads/portfolio/netech_i0.jpg
+        - image_url: /uploads/portfolio/netech_front.jpg
+        - image_url: /uploads/portfolio/netech_far.jpg
+        - image_url: /uploads/portfolio/netech_interior_reception.jpg
+        - image_url: /uploads/portfolio/netech_interior_reception_2.jpg
+        - image_url: /uploads/portfolio/netech_interior_work_stations.jpg
+        - image_url: /uploads/portfolio/netech_interior_gym.jpg
 
     - title: Lasers Resource
       images:
-        - image_url: /uploads/portfolio/lasers_resource_e2.jpg
-        - image_url: /uploads/portfolio/lasers_resource_e3.jpg
-        - image_url: /uploads/portfolio/lasers_resource_i0.jpg
+        - image_url: /uploads/portfolio/lasers_resource_front_corner.jpg
+        - image_url: /uploads/portfolio/lasers_resource_back.jpg
+        - image_url: /uploads/portfolio/lasers_resource_interior.jpg
+        - image_url: /uploads/portfolio/lasers_resource_interior_reception.jpg
+        - image_url: /uploads/portfolio/lasers_resource_interior_waiting_room.jpg
+        - image_url: /uploads/portfolio/lasers_resource_interior_break_room.jpg
 
-    - title: Fillmore Equipment — Holland
+    - title: FOAM-iT
       images:
-        - image_url: /uploads/portfolio/greenmark_holland_e0.jpg
-        - image_url: /uploads/portfolio/greenmark_holland_e1.jpg
-        - image_url: /uploads/portfolio/greenmark_holland_i0.jpg
+        - image_url: /uploads/portfolio/foam_it_front.jpg
+        - image_url: /uploads/portfolio/foam_it_interior_conference_room.jpg
+        - image_url: /uploads/portfolio/foam_it_interior_conference_room_far.jpg
+        - image_url: /uploads/portfolio/foam_it_interior_warehouse.jpg
+
+    - title: GreenMark Equipment
+      images:
+        - image_url: /uploads/portfolio/greenmark_holland_front.jpg
+        - image_url: /uploads/portfolio/greenmark_holland_front_left.jpg
+        - image_url: /uploads/portfolio/greenmark_holland_drone.jpg
+        - image_url: /uploads/portfolio/greenmark_holland_interior.jpg
 
 - section_title: Community / Educational
   projects:
-    - title: Grace Adventures — Lakeview Common
+    - title: Grace Adventures
       images:
-        - image_url: /uploads/portfolio/grace-adventures-1.png
-        - image_url: /uploads/portfolio/grace-adventures-2.png
-        - image_url: /uploads/portfolio/grace-adventures-3.png
+        - image_url: /uploads/portfolio/grace_adventures_skewed.png
+        - image_url: /uploads/portfolio/grace_adventures_drone_far.png
+        - image_url: /uploads/portfolio/grace_adventures_firepits.png
 
     - title: Roselle Park
       images:
-        - image_url: /uploads/portfolio/roselle_e0.jpg
-        - image_url: /uploads/portfolio/roselle_e1.jpg
-        - image_url: /uploads/portfolio/roselle_e2.jpg
+        - image_url: /uploads/portfolio/roselle_front_left_edited.jpg
+        - image_url: /uploads/portfolio/roselle_front_right_edited.jpg
+        - image_url: /uploads/portfolio/roselle_front_left.jpg
+        - image_url: /uploads/portfolio/roselle_front_right.jpg
+        - image_url: /uploads/portfolio/roselle_construction_drone.jpg
+        - image_url: /uploads/portfolio/roselle_construction.jpg
 
     - title: Canterbury Creek Preschool
       images:
-        - image_url: /uploads/portfolio/canterbury_creek_e0.jpg
-        - image_url: /uploads/portfolio/canterbury_creek_e2.jpg
-        - image_url: /uploads/portfolio/canterbury_creek_e4.jpg
-
-    - title: Schoolhouse
-      images:
-        - image_url: /uploads/portfolio/schoolhouse_e0.jpg
-        - image_url: /uploads/portfolio/schoolhouse_e1.jpg
-        - image_url: /uploads/portfolio/schoolhouse_e2.jpg
-        - image_url: /uploads/portfolio/schoolhouse_i0.jpg
+        - image_url: /uploads/portfolio/canterbury_creek_front.jpg
+        - image_url: /uploads/portfolio/canterbury_creek_front_left.jpg
+        - image_url: /uploads/portfolio/canterbury_creek_front_right.jpg
+        - image_url: /uploads/portfolio/canterbury_creek_front_skewed.jpg

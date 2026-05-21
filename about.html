@@ -24,14 +24,14 @@ extra_css: /assets/about.css
             </p>
         </div>
         <figure class="about-image">
-            <img src="{{ '/uploads/portfolio/ada_first_e2.jpg' | relative_url }}" alt="">
+            {% include picture.html src="/uploads/portfolio/ada_first_corner_clock_cropped.jpg" alt="" loading="eager" sizes="(max-width:900px) 100vw, 50vw" %}
         </figure>
     </section>
 
     <!-- Values pane — image on left, 3 values on right -->
     <section class="pane values-pane">
         <figure class="values-image">
-            <img src="{{ '/uploads/portfolio/ada_first_i0.jpg' | relative_url }}" alt="">
+            {% include picture.html src="/uploads/portfolio/ada_first_interior_conference_room.jpg" alt="" loading="lazy" sizes="(max-width:900px) 100vw, 45vw" %}
         </figure>
         <div class="values-content">
             <h2 class="pane-heading">Our Values</h2>
@@ -54,7 +54,7 @@ extra_css: /assets/about.css
             
             <div class="team-member">
                 <a href="{{ '/contact/' | relative_url }}" class="team-photo">
-                    <img src="{{ member.image_url | relative_url }}" alt="{{ member.name }}">
+                    {% include picture.html src=member.image_url alt=member.name loading="lazy" sizes="140px" %}
                 </a>
                 <h3 class="team-name">{{ member.name }}</h3>
                 <p class="team-role">{{ member.role }}</p>

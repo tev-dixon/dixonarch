@@ -63,8 +63,14 @@
 
   let currentImages = [], currentTitle = '', currentIndex = 0;
 
+  function toWebP(src, width) {
+    return src.replace(/\.[^.]+$/, '').replace('/uploads/', '/uploads/optimized/') + '-' + width + 'w.webp';
+  }
+
   function show() {
-    lbImg.src = currentImages[currentIndex];
+    const original = currentImages[currentIndex];
+    lbImg.src = toWebP(original, 1600);
+    lbImg.onerror = function () { lbImg.src = original; lbImg.onerror = null; };
     lbTitle.textContent = currentTitle;
     lbCounter.textContent = (currentIndex + 1) + ' / ' + currentImages.length;
   }

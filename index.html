@@ -3,6 +3,7 @@ layout: default
 title: Home
 extra_css: /assets/home.css
 extra_js: /assets/gallery.js
+preload_hero: true
 ---
 
 {% assign hero = site.data.hero %}
@@ -14,7 +15,11 @@ extra_js: /assets/gallery.js
     <div class="gallery-frame">
       {% for item in hero %}
         <div class="slide {% if forloop.first %}active{% endif %}">
-          <img src="{{ item.image_url | relative_url }}" alt="{{ item.title }}">
+          {% if forloop.first %}
+            {% include picture.html src=item.image_url alt=item.title loading="eager" sizes="100vw" fetchpriority="high" %}
+          {% else %}
+            {% include picture.html src=item.image_url alt=item.title loading="eager" sizes="100vw" %}
+          {% endif %}
         </div>
       {% endfor %}
     </div>

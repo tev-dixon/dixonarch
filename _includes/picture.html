@@ -1,0 +1,28 @@
+{% comment %}
+  Renders a <picture> with WebP sources at 400w, 800w, 1600w alongside the original fallback.
+  Params:
+    src           – image path e.g. /uploads/portfolio/foo.jpg  (required)
+    alt           – alt text  (default: empty)
+    class         – class on the <img>
+    loading       – "lazy" | "eager"  (default: lazy)
+    sizes         – sizes attribute  (default: 100vw)
+    fetchpriority – "high" for LCP images
+{% endcomment %}
+{% assign _pic_base = include.src | split: '.' | first | replace: '/uploads/', '/uploads/optimized/' %}
+{% assign _pic_load = include.loading | default: 'lazy' %}
+{% assign _pic_sizes = include.sizes | default: '100vw' %}
+<picture>
+  <source
+    type="image/webp"
+    srcset="{{ _pic_base | append: '-400w.webp' | relative_url }} 400w,
+            {{ _pic_base | append: '-800w.webp' | relative_url }} 800w,
+            {{ _pic_base | append: '-1600w.webp' | relative_url }} 1600w"
+    sizes="{{ _pic_sizes }}">
+  <img
+    src="{{ include.src | relative_url }}"
+    alt="{{ include.alt | default: '' }}"{% if include.class %}
+    class="{{ include.class }}"{% endif %}
+    loading="{{ _pic_load }}"{% if _pic_load == 'lazy' %}
+    decoding="async"{% endif %}{% if include.fetchpriority %}
+    fetchpriority="{{ include.fetchpriority }}"{% endif %}>
+</picture>

@@ -10,6 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    {% if page.preload_hero %}
+    {% assign _h0 = site.data.hero | first %}
+    {% assign _h0_base = _h0.image_url | split: '.' | first | replace: '/uploads/', '/uploads/optimized/' %}
+    <link rel="preload" as="image"
+      href="{{ _h0_base | append: '-1600w.webp' | relative_url }}"
+      imagesrcset="{{ _h0_base | append: '-800w.webp' | relative_url }} 800w, {{ _h0_base | append: '-1600w.webp' | relative_url }} 1600w"
+      imagesizes="100vw"
+      type="image/webp">
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
     {% if page.extra_css %}
     <link rel="stylesheet" href="{{ page.extra_css | relative_url }}">

@@ -20,7 +20,7 @@ extra_js: /assets/portfolio.js
              href="#"
              data-project-index="{{ forloop.index0 }}"
              data-section-index="{{ forloop.parentloop.index0 }}">
-            <img src="{{ cover.image_url | relative_url }}" alt="{{ project.title }}">
+            {% include picture.html src=cover.image_url alt=project.title loading="lazy" sizes="(max-width:768px) 50vw, 25vw" %}
             <div class="collage-overlay">
               <span>{{ project.title }}</span>
             </div>
