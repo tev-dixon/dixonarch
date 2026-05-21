@@ -5,7 +5,7 @@ Outputs go to uploads/optimized/{subfolder}/{name}-{width}w.webp.
 Already-generated files are skipped, so only new images are processed.
 """
 from pathlib import Path
-from PIL import Image
+from PIL import Image, ImageOps
 
 WIDTHS = [400, 800, 1600]
 QUALITY = 85
@@ -28,6 +28,7 @@ def process_image(img_path: Path) -> int:
             continue
 
         with Image.open(img_path) as img:
+            img = ImageOps.exif_transpose(img)
             if img.mode not in ("RGB", "RGBA"):
                 img = img.convert("RGB")
 
