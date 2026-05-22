@@ -20,7 +20,7 @@
   }
 
   function startAutoScroll() {
-    autoScroll = setInterval(() => show(current + 1), 6000);
+    autoScroll = setInterval(() => show(current + 1), 3500);
   }
 
   function resetAutoScroll() {
